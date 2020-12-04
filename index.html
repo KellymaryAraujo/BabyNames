@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Gerador de Nomes de Bebês </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header> Gerador de Nomes de Bebês </header>
+    <section> 
+        <div> 
+            <p> Sexo:
+            <input type="radio" name="sex" id="mas" class="bt">
+            <label for="mas"> Masculino </label>
+            <input type="radio" name="sex" id="fem" class="bt">
+            <label for="mas"> Feminino </label>
+            </p> 
+        <div>
+            <p> Comprimento: 
+                <input type="radio" name="cm" id="curto" class="bt">
+                <label for="curto"> Nome Curto</label>
+                <input type="radio" name="cm" id="longo" class="bt">
+                <label for=""> Nome Longo </label> 
+            </p>
+        </div>
+        <div>
+            <p> 
+            <input type="button" value="Gerar Nome" onclick="verificar()" class="button">
+            </p>
+        </div>
+        <div id = "res"> 
+            <p> Primeiro, preencha os dados acima! </p>
+        </div>
+        <div id="imagem">
+            <img src="baby.jpg" title="Bebê" alt="Bebê" >
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+    <footer> 
+      <p> &copy; Kellymary de Araujo </p>
+    </footer>
+</html>
