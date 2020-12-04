@@ -6,6 +6,7 @@ In this project I applied my knowledge in:
 
 - JS Array.
 - JS Conditional if, else ... if.
+- JS Function.
 - HTML Input.
 - CSS Button customization.
 
